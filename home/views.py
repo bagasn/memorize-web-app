@@ -2,5 +2,8 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'login.html')
+    context = {
+        "page_title": "Login",
+    }
+    return render(request, 'login.html', context)
 
