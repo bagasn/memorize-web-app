@@ -1,3 +1,10 @@
 .panel-login {
-    margin-top: 80px;
+    width: 500px;
+    text-align: center;
+    margin: 50px;
+}
+
+.lbl-frm-login {
+    text-align: center;
+    width: 100px;
 }
